@@ -18,7 +18,7 @@ const Work = () => (
   <Layout title="The four painters">
     <Container>
       <Title>
-        The four painters <Badge>2015</Badge>
+        Mealkit Delivery Service Prototype Design  <Badge>2023</Badge>
       </Title>
       <P>
         A video work generated with deep learning, imitating famous four
@@ -27,16 +27,16 @@ const Work = () => (
       </P>
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Stack</Meta>
-          <span>DeepLearning, neural-style, Caffe, NodeJS</span>
+          <Meta>Tools</Meta>
+          <span>Figma </span>
         </ListItem>
         <ListItem>
           <Meta>Presentation</Meta>
-          <Link href="https://speakerdeck.com/craftzdog/the-fun-deep-learning">
-            The fun Deep Learning <ExternalLinkIcon mx="2px" />
+          <Link href="https://www.figma.com/file/xIzw4fsOGBv730ifqUuLX0/Desktop-and-Mobile-Version-of-Meal-Kit-Delivery?type=design&node-id=202-5106&mode=design&t=n6ojtgCXi6taXu7k-0">
+            Wireframes <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
-        <ListItem>
+        {/* <ListItem>
           <Meta>Blogpost</Meta>
           <Link href="https://archive.craftz.dog/blog.odoruinu.net/2015/12/23/the-four-painters-a-video-work-created-with-deep-learning/">
             The four painters: A Video Work Created with Deep Learning{' '}
@@ -49,10 +49,10 @@ const Work = () => (
             Deep Learningを使って映像作品を作った
             <ExternalLinkIcon mx="2px" />
           </Link>
-        </ListItem>
+        </ListItem> */}
       </List>
 
-      <Heading as="h4" fontSize={16} my={6}>
+      {/* <Heading as="h4" fontSize={16} my={6}>
         <Center>Media coverage</Center>
       </Heading>
 
@@ -73,7 +73,7 @@ const Work = () => (
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
-      </UnorderedList>
+      </UnorderedList> */}
 
       <Box>
         <iframe

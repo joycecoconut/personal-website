@@ -16,22 +16,22 @@ const Posts = () => (
   <Layout title="Posts">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Popular Posts
+        Self-Introduction
       </Heading>
 
       <Section delay={0.1}>
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+        <SimpleGrid columns={[1, 2]} gap={6}>
           <GridItem
-            title="How to build a portfolio website"
+            title="Self-introduction Video"
             thumbnail={thumbPortfolio}
             href="https://www.youtube.com/watch?v=bSMZgXzC9AA"
           />
           <GridItem
-            title="How to take notes in Markdown efficiently with Inkdrop"
+            title="Resume PDF"
             thumbnail={thumbHowToUseInkdrop}
             href="https://www.youtube.com/watch?v=-qBavwqc_mY"
           />
-          <GridItem
+          {/* <GridItem
             title="My Fish workflow"
             thumbnail={thumbFishWorkflow}
             href="https://www.youtube.com/watch?v=KKxhf50FIPI"
@@ -40,11 +40,11 @@ const Posts = () => (
             title="My desk setup (Late 2020)"
             thumbnail={thumbMyDeskSetup}
             href="https://www.youtube.com/watch?v=1OFDMwDlnOE"
-          />
+          /> */}
         </SimpleGrid>
       </Section>
 
-      <Section delay={0.3}>
+      {/* <Section delay={0.3}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             title="How I’ve Attracted The First 500 Paid Users For My SaaS That Costs $5/mo"
@@ -57,9 +57,9 @@ const Posts = () => (
             href="https://blog.inkdrop.app/i-stopped-setting-a-financial-goal-for-my-saas-a92c3db65506"
           />
         </SimpleGrid>
-      </Section>
+      </Section> */}
 
-      <Section delay={0.5}>
+      {/* <Section delay={0.5}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             title="How to Price Yourself as a Freelance Developer"
@@ -72,7 +72,7 @@ const Posts = () => (
             href="https://www.youtube.com/watch?v=vj723NlrIQc"
           />
         </SimpleGrid>
-      </Section>
+      </Section> */}
     </Container>
   </Layout>
 )
