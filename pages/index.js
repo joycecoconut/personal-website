@@ -104,7 +104,7 @@ const Home = () => (
           I worked as a Product Manger Intern in a tech company during my junior
           year in University, where I was lucky to work with and explore how the works like
           as a UI/UX designer, a data analyst and a web developer.
-          I find my enthusiam in the essence of internect is to transmit and exchange information, also realized it's
+          I find my enthusiam in the essence of internect is to transmit and exchange information, also realized it is
           important how you present the same information. different ways can have very different effects.
 
         </Paragraph>
