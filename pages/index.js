@@ -142,7 +142,7 @@ const Home = () => (
         <Paragraph>
           Hiking, Traveling, Cooking, Reading, Music, {' '}
           <Link href="https://unsplash.com/@jingyued2023/" target="_blank">
-            Film Photography
+            Photography
           </Link>
 
         </Paragraph>

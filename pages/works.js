@@ -14,7 +14,7 @@ import thumb13f from '../public/images/works/13f_eyecatch.png'
 // import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
 // import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
 
-const Works = () => (
+const Projects = () => (
   <Layout title="Works">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
@@ -23,11 +23,11 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
 
-        <Section>
+        {/* <Section>
           <WorkGridItem id="webcog" title="Webcog" thumbnail={thumbInkdrop}>
             An experiment website studying the relationship of memory and age
           </WorkGridItem>
-        </Section>
+        </Section> */}
 
         {/* <Section>
           <WorkGridItem id="webcog" title="StudyHive" thumbnail={thumbInkdrop}>
@@ -53,11 +53,11 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
-        <Section delay={0.3}>
+        {/* <Section delay={0.3}>
           <WorkGridItem id="13f" thumbnail={thumb13f} title="Sina Finance 13F">
             The webpage about Sina Finance 13F Product
           </WorkGridItem>
-        </Section>
+        </Section> */}
 
       </SimpleGrid>
 
@@ -87,5 +87,5 @@ const Works = () => (
   </Layout>
 )
 
-export default Works
+export default Projects
 export { getServerSideProps } from '../components/chakra'

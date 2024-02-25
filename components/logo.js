@@ -33,7 +33,7 @@ const Logo = () => {
           fontWeight="bold"
           ml={3}
         >
-          Jingyue Dai
+          Luna Dai
         </Text>
       </LogoBox>
 
