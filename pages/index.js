@@ -101,21 +101,25 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          I worked as a Product Manger Intern in a tech company during my junior
+          I interned as a Software Developer in a tech company during my junior
           year in University, where I was lucky to work with and explore how the works like
           as a UI/UX designer, a data analyst and a web developer.
-          I find my enthusiam in the essence of internect is to transmit and exchange information, also realized it is
-          important how you present the same information. different ways can have very different effects.
+          What motivates me is the passion for storytelling and creativity.
+          The ability to connect with users, evoke emotions, and bring ideas to life through my work.
+          I am fueled by the desire to continuously improve my skills,
+          explore innovative approaches, and contribute meaningfully to the projects I undertake.
+          The opportunity to make a positive impact and create content that resonates with people
+          is a powerful source of motivation for me.
 
         </Paragraph>
         <Paragraph>
           Following that experience, I took serveral courses in CS related area and decided to dive deep
           in the area of web developer. I started my new journey in the US since Sept 2022 and worked with
           professors, classmates in a comprehensive aspects of Software Engineering covering Web Developemnt,
-          Mobile development, Data Storage, DevOps, and Project Managements.  (Find more about my works. )
+          Mobile development, Data Storage, DevOps, and Project Managements.
         </Paragraph>
         <Paragraph>
-          Now I am also self-learning to use Flutter to develop a mobile game app ...
+          Now I am also learning to use Flutter to develop a mobile game app ...
 
         </Paragraph>
         <Box align="center" my={4}>
@@ -146,12 +150,12 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          On the web
+          More
         </Heading>
         <List>
 
           <ListItem>
-            <Link href="https://www.instagram.com/_stack_overflow_/" target="_blank">
+            <Link href="https://drive.google.com/file/d/1kKhcF7GX538EYTYeGmVQ4OAiBDtogCA5/view?usp=sharing" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"

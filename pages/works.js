@@ -30,34 +30,32 @@ const Works = () => (
         </Section>
 
         <Section>
-          <WorkGridItem
-            id="songsight"
-            title="SongSight"
-            thumbnail={thumbWalknote}
-          >
+          <WorkGridItem id="webcog" title="StudyHive" thumbnail={thumbInkdrop}>
+            A room reservation web application for students to search and book study space
+          </WorkGridItem>
+        </Section>
+
+        <Section>
+          <WorkGridItem id="songsight" title="SongSight" thumbnail={thumbWalknote}>
             A Music playlist recommendation web app connected to Spotify API
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
-          <WorkGridItem
-            id="fourpainters"
-            title="The four painters"
-            thumbnail={thumbFourPainters}
-          >
+          <WorkGridItem id="mealkit" title="MealKit Delivery" thumbnail={thumbFourPainters}>
             A comprehensive user experience design for a Meal Kit Delivery Service
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
-          <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
-            A testing project for a famous open source project called Teammates
+          <WorkGridItem id="teammates" thumbnail={thumbMenkiki} title="Testing on Teammates">
+            A collaborative testing project for a open source project called Teammates
           </WorkGridItem>
         </Section>
 
         <Section delay={0.3}>
           <WorkGridItem id="13f" thumbnail={thumb13f} title="Sina Finance 13F">
-            A webpage from Sina Finance about the 13F form disclosure information.
+            The webpage about Sina Finance 13F Product
           </WorkGridItem>
         </Section>
 
