@@ -29,11 +29,11 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
-        <Section>
+        {/* <Section>
           <WorkGridItem id="webcog" title="StudyHive" thumbnail={thumbInkdrop}>
             A room reservation web application for students to search and book study space
           </WorkGridItem>
-        </Section>
+        </Section> */}
 
         <Section>
           <WorkGridItem id="songsight" title="SongSight" thumbnail={thumbWalknote}>
