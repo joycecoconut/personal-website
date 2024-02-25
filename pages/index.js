@@ -64,7 +64,7 @@ const Home = () => (
             overflow="hidden"
           >
             <ProfileImage
-              src="/images/jingyue.jpg"
+              src="/images/jingyue_01.jpg"
               alt="Profile image"
               borderRadius="full"
               width="100"
