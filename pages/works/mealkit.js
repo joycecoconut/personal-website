@@ -110,7 +110,7 @@ const Work = () => (
         <ListItem>
           Scrollable page (or portion of a page):
           All pages are vertically scrollable, with a fixed top navigation bar. The
-          first page allows horizontal scrolling within the "explore the menu" area for
+          first page allows horizontal scrolling within the explore the menu area for
           the placeholder pictures.
 
         </ListItem>
@@ -121,7 +121,7 @@ const Work = () => (
 
         </ListItem>
         <ListItem>
-          Interactive component with variants: On the third page, the "collect the meal" button changes to a darker gray
+          Interactive component with variants: On the third page, the &quot;collect the meal&quot; button changes to a darker gray
           background color when the mouse hovers over it and returns to a lighter gray
           background color when the mouse moves away.
 

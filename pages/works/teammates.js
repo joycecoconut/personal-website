@@ -18,7 +18,7 @@ const Work = () => (
   <Layout title="Teammates (Testing)">
     <Container>
       <Title>
-        Testing Project on "Teammates"
+        Testing Project on Teammates
       </Title>
       <P>
         We did a comprehensive software testing on TEAMMATES,

@@ -34,5 +34,5 @@ const Loader = () => {
     </DogContainer>
   )
 }
-
+DogContainer.displayName = 'DogContainer';
 export default Loader
