@@ -2,6 +2,7 @@ import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
+import { WorkGridItem } from '../components/grid-item'
 import thumbInkdrop from '../public/images/works/webcog_eyecatch.png'
 import thumb13f from '../public/images/works/13f_eyecatch.png'
 import thumbPortfolio from '../public/images/contents/youtube-how-to-build-portfolio.jpg'
@@ -22,12 +23,12 @@ const Experience = () => (
 
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2]} gap={6}>
-          <GridItem id="webcog" title="Webcog" thumbnail={thumbInkdrop}>
+          <WorkGridItem id="webcog" title="Webcog" thumbnail={thumbInkdrop}>
             An experiment website studying the relationship of memory and age
-          </GridItem>
-          <GridItem id="13f" thumbnail={thumb13f} title="Sina Finance 13F">
+          </WorkGridItem>
+          <WorkGridItem id="13f" thumbnail={thumb13f} title="Sina Finance 13F">
             The webpage about Sina Finance 13F Product
-          </GridItem>
+          </WorkGridItem>
           {/* <SimpleGrid columns={[1, 2]} gap={6}>
           <GridItem
             title="Self-introduction Video"
