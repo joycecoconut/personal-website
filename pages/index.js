@@ -37,7 +37,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m a full-stack developer based in CA!
+        Hello, I&apos;m a full-stack developer based in Irvine, CA
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -45,7 +45,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Luna Dai
           </Heading>
-          <p>Proficient in JavaScript (React, NestJS), Python, SQL </p>
+          <p>Proficient in JavaScript, Python, SQL </p>
         </Box>
         <Box
           flexShrink={0}
@@ -125,15 +125,27 @@ const Home = () => (
         <Box align="center" my={4}>
           <Button
             as={NextLink}
+            href="/experience"
+            scroll={false}
+            rightIcon={<ChevronRightIcon />}
+            colorScheme="teal"
+            mr={8} // Add margin to the right of the first button
+          >
+            Experience
+          </Button>
+          <Button
+            as={NextLink}
             href="/works"
             scroll={false}
             rightIcon={<ChevronRightIcon />}
             colorScheme="teal"
           >
-            My portfolio
+            Projects
           </Button>
         </Box>
       </Section>
+
+
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
@@ -155,7 +167,7 @@ const Home = () => (
         <List>
 
           <ListItem>
-            <Link href="https://drive.google.com/file/d/1kKhcF7GX538EYTYeGmVQ4OAiBDtogCA5/view?usp=sharing" target="_blank">
+            <Link href="https://drive.google.com/file/d/1isgjFC5MuBgT87gjabzKNdRuVGltJoNF/view?usp=sharing">
               <Button
                 variant="ghost"
                 colorScheme="teal"
