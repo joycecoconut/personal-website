@@ -118,7 +118,7 @@ const Home = () => (
           data storage, DevOps, and project management.
         </Paragraph>
         <Paragraph>
-          Now I am also learning to use Flutter to develop a mobile game app ...
+          Recently, I've been diving into Flutter to develop a mobile game app for a hackathon...
 
         </Paragraph>
         <Box align="center" my={4}>
