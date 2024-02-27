@@ -113,8 +113,8 @@ const Home = () => (
         </Paragraph>
         <Paragraph>
           Following that experience, I immersed myself in computer science, focusing on web development.
-          Since September 2022, Ive been collaborating with professors and classmates in UCI,
-          exploring software engineering comprehensively—including web and mobile development,
+          Since September 2022, I&apos;ve been collaborating with professors and classmates in UCI,
+          exploring software engineering aspects comprehensively, including web and mobile development,
           data storage, DevOps, and project management.
         </Paragraph>
         <Paragraph>
