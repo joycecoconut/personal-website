@@ -16,20 +16,20 @@ const Main = ({ children, router }) => {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Luna's homepage" />
-        <meta name="author" content="Jingyue Dai" />
+        <meta name="author" content="Luna Dai" />
         <meta name="author" content="craftzdog" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <meta name="twitter:title" content="Jingyue Dai" />
+        <meta name="twitter:title" content="Luna Dai" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@craftzdog" />
         <meta name="twitter:creator" content="@craftzdog" />
         <meta name="twitter:image" content="https://www.craftz.dog/card.png" />
-        <meta property="og:site_name" content="Jingyue Dai" />
-        <meta name="og:title" content="Jingyue Dai" />
+        <meta property="og:site_name" content="Luna Dai" />
+        <meta name="og:title" content="Luna Dai" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://www.craftz.dog/card.png" />
-        <title>Jingyue Dai - Homepage</title>
+        <title>Luna Dai - Homepage</title>
       </Head>
 
       <NavBar path={router.asPath} />
