@@ -3,7 +3,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import { WorkGridItem } from '../components/grid-item'
-import thumbInkdrop from '../public/images/works/webcog_eyecatch.png'
+import thumbInkdrop from '../public/images/works/weee_eyecatch.png'
 import thumb13f from '../public/images/works/13f_eyecatch.png'
 import thumbPortfolio from '../public/images/contents/youtube-how-to-build-portfolio.jpg'
 import thumbHowToUseInkdrop from '../public/images/contents/youtube-how-to-use-inkdrop.jpg'
@@ -23,37 +23,17 @@ const Experience = () => (
 
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2]} gap={6}>
-          <WorkGridItem id="webcog" title="Webcog" thumbnail={thumbInkdrop}>
-            An experiment website studying the relationship of memory and age
+          <WorkGridItem id="Weee" title="Weee" thumbnail={thumbInkdrop}>
+            Built Reusable Store Page for Global+ service for products display and customer reviews.
           </WorkGridItem>
           <WorkGridItem id="13f" thumbnail={thumb13f} title="Sina Finance 13F">
             The webpage about Sina Finance 13F Product
           </WorkGridItem>
-          {/* <SimpleGrid columns={[1, 2]} gap={6}>
-          <GridItem
-            title="Self-introduction Video"
-            thumbnail={thumbPortfolio}
-            href="https://www.youtube.com/watch?v=bSMZgXzC9AA"
-          />
-          <GridItem
-            title="Resume PDF"
-            thumbnail={thumbHowToUseInkdrop}
-            href="https://www.youtube.com/watch?v=-qBavwqc_mY"
-          /> */}
-          {/* <GridItem
-            title="My Fish workflow"
-            thumbnail={thumbFishWorkflow}
-            href="https://www.youtube.com/watch?v=KKxhf50FIPI"
-          />
-          <GridItem
-            title="My desk setup (Late 2020)"
-            thumbnail={thumbMyDeskSetup}
-            href="https://www.youtube.com/watch?v=1OFDMwDlnOE"
-          /> */}
         </SimpleGrid>
+
       </Section>
 
-      {/* <Section delay={0.3}>
+      <Section delay={0.3}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             title="How I’ve Attracted The First 500 Paid Users For My SaaS That Costs $5/mo"
@@ -66,22 +46,8 @@ const Experience = () => (
             href="https://blog.inkdrop.app/i-stopped-setting-a-financial-goal-for-my-saas-a92c3db65506"
           />
         </SimpleGrid>
-      </Section> */}
+      </Section>
 
-      {/* <Section delay={0.5}>
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
-            title="How to Price Yourself as a Freelance Developer"
-            thumbnail={thumbHowToPriceYourself}
-            href="https://blog.inkdrop.app/how-to-price-yourself-as-a-freelance-developer-3453dfd59d91"
-          />
-          <GridItem
-            title="I made my React Native app 50x faster"
-            thumbnail={thumb50xFaster}
-            href="https://www.youtube.com/watch?v=vj723NlrIQc"
-          />
-        </SimpleGrid>
-      </Section> */}
     </Container>
   </Layout >
 )

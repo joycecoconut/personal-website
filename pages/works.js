@@ -23,17 +23,17 @@ const Projects = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
 
-        {/* <Section>
+        <Section>
           <WorkGridItem id="webcog" title="Webcog" thumbnail={thumbInkdrop}>
             An experiment website studying the relationship of memory and age
           </WorkGridItem>
-        </Section> */}
+        </Section>
 
-        {/* <Section>
+        <Section>
           <WorkGridItem id="webcog" title="StudyHive" thumbnail={thumbInkdrop}>
             A room reservation web application for students to search and book study space
           </WorkGridItem>
-        </Section> */}
+        </Section>
 
         <Section>
           <WorkGridItem id="songsight" title="SongSight" thumbnail={thumbWalknote}>
@@ -52,12 +52,6 @@ const Projects = () => (
             A collaborative testing project for a open source project called Teammates
           </WorkGridItem>
         </Section>
-
-        {/* <Section delay={0.3}>
-          <WorkGridItem id="13f" thumbnail={thumb13f} title="Sina Finance 13F">
-            The webpage about Sina Finance 13F Product
-          </WorkGridItem>
-        </Section> */}
 
       </SimpleGrid>
 

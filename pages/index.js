@@ -37,15 +37,15 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m a full-stack developer based in Irvine, CA
+        Hello, I&apos;m a front-end developer based in Los Angeles
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Luna Dai
+            Joyce Dai
           </Heading>
-          <p>Proficient in JavaScript, Python, SQL </p>
+          <p>Proficient in HTML/CSS/JavaScript, Angular </p>
         </Box>
         <Box
           flexShrink={0}
@@ -64,7 +64,7 @@ const Home = () => (
             overflow="hidden"
           >
             <ProfileImage
-              src="/images/jingyue_01.jpg"
+              src="/images/jingyue_05.png"
               alt="Profile image"
               borderRadius="full"
               width="100"
@@ -80,19 +80,22 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           Bio
         </Heading>
+
         <BioSection>
-          <BioYear>1999.09</BioYear>
-          Born in China.
+          <BioYear>2023.08</BioYear>
+          Front-end Developer @Weee! Global+ Delivery Service
         </BioSection>
         <BioSection>
-          <BioYear>2021.06</BioYear>
-          Completed the Bachelor&apos;s Degree of Actuarial Science in
-          University of Internation Business and Economics in Beijing, China.
+          <BioYear>2022.09</BioYear>
+          Full-Stack Developer @Action Property Management
         </BioSection>
         <BioSection>
-          <BioYear>2023.12</BioYear>
-          Completed the Master&apos;s Degree of Software Engineering in the ICS School of
-          University of California, Irvine.
+          <BioYear>2020.09</BioYear>
+          Front-end Developer @Sina Finance Big Data Center
+        </BioSection>
+        <BioSection>
+          <BioYear>2018.09</BioYear>
+          Quality Assurance    @Meituan Business
         </BioSection>
       </Section>
 
@@ -101,26 +104,21 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          During my junior year at university, I interned as a Developer at a tech company,
-          gaining exposure to roles in UI/UX design, data analysis, and web development.
-          My driving force is a passion for storytelling and creativity — connecting with users,
-          evoking emotions, and bringing ideas to life.
-          {/* The opportunity to make a positive impact and create content that resonates with people
-          is a powerful source of motivation for me. */}
-          I am also fueled by the desire to continuously improve my skills,
-          explore innovative approaches, and contribute meaningfully to the projects I undertake.
+          Hi, I am Joyce, a front-end developer with 6 years of experience. I believe the front end is where technology meets art, creating visually appealing and user-friendly interfaces. My expertise lies in JavaScript frameworks like angular and react, enabling me to build modern, SEO-friendly websites that enhance user satisfaction and drive company profits.
+        </Paragraph>
 
-        </Paragraph>
         <Paragraph>
-          Following that experience, I immersed myself in computer science, focusing on web development.
-          Since September 2022, I&apos;ve been collaborating with professors and classmates in UCI,
-          exploring software engineering aspects comprehensively, including web and mobile development,
-          data storage, DevOps, and project management.
+          In my career, I have focused on developing and testing Angular projects ranging from e-commerce platforms to admin panels. Additionally, I am skilled in using data visualization tools to create interactive charts, aiding stakeholders in making informed decisions.
         </Paragraph>
-        <Paragraph>
-          Recently, I&apos;ve been diving into Flutter to develop a mobile game app for a hackathon...
 
+        <Paragraph>
+          I am highly motivated and always ready for new challenges. I actively engage with the developer community, sharing knowledge and staying updated with the latest trends and technologies.
         </Paragraph>
+
+        <Paragraph>
+          My driving force is a passion for storytelling and creativity — connecting with users, evoking emotions, and bringing ideas to life. I am also fueled by the desire to continuously improve my skills, explore innovative approaches, and contribute meaningfully to the projects I undertake.
+        </Paragraph>
+
         <Box align="center" my={4}>
           <Button
             as={NextLink}
@@ -185,7 +183,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @Luna
+                @Joyce
               </Button>
             </Link>
           </ListItem>
@@ -197,7 +195,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoInstagram />}
               >
-                @Luna Dai
+                @Joyce Dai
               </Button>
             </Link>
           </ListItem>
