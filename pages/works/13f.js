@@ -33,25 +33,39 @@ const Work = () => (
         <ListItem>
           <Meta>Stack</Meta>
           <span>
-            React / TypeScript / PHP / Python
+            Angular / TypeScript / PHP / Python
           </span>
         </ListItem>
 
       </List>
 
-      <WorkImage src="/images/works/13f_eyecatch.png" alt="Website" />
+      <List ml={4} my={4}>
+        <ListItem>
+          1. Participated in the design of the product by analyzing business logic: separating 13F report data to show both top 10 investment managers and top 10 invested stocks/ETFs.
+        </ListItem>
+        <ListItem>
+          2. Drew wireframes and high-fidelity mockups using Axure to harmonize UI design with the company website aesthetic.
+        </ListItem>
 
-      {/* <AspectRatio maxW="640px" ratio={1.7} my={4}>
-        <iframe
-          src="https://www.youtube.com/embed/GznmPACXBlY"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      </AspectRatio> */}
-
-      {/* <WorkImage src="/images/works/margelo_01.png" alt="Margelo" /> */}
+        <ListItem>
+          3. Developed the front-end using Angular and Angular Material, including an auto-scrolling news widget, toolbars, table data, and media sharing features.
+        </ListItem>
+        <ListItem>
+          4. Automated the extraction of 13F filings using Scrapy, refining and verifying data accuracy.
+        </ListItem>
+        <ListItem>
+          5. Employed Apache ECharts to visualize institutional investors’ fund trends, including a changeable time axis for users to drag and select their interested time span.
+        </ListItem>
+        <ListItem>
+          6. Created a dynamic investment data table, integrating ngx-datatable for enhanced functionalities including pagination, sorting, and filtering.
+        </ListItem>
+        <ListItem>
+          7. Implemented a CI/CD pipeline leveraging Jenkins automation to build, test, and deploy software products to orchestrate the entire software development lifecycle and accelerated release cycles.
+        </ListItem>
+        <ListItem>
+          8. Led efforts resulting in a 7% increase in the monthly active user base by researching the current market for similar products, identifying areas for improvement before product releases and bug fixes.
+        </ListItem>
+      </List>
 
     </Container>
   </Layout>
