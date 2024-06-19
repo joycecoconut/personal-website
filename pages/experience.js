@@ -16,7 +16,7 @@ const Experience = () => (
 
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2]} gap={6}>
-          <WorkGridItem id="Weee" title="Weee" thumbnail={thumbInkdrop}>
+          <WorkGridItem id="weee" title="Weee" thumbnail={thumbInkdrop}>
             Built Reusable Store Page for Global+ service for products display and customer reviews.
           </WorkGridItem>
 
