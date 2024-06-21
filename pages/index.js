@@ -76,7 +76,7 @@ const Home = () => (
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
-          Bio
+          Experiences
         </Heading>
 
         <BioSection>
@@ -93,7 +93,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2018.09</BioYear>
-          Quality Assurance    @Meituan Business
+          Front-end Developer  @Meituan
         </BioSection>
       </Section>
 
@@ -106,7 +106,7 @@ const Home = () => (
         </Paragraph>
 
         <Paragraph>
-          In my career, I have focused on developing and testing Angular projects ranging from e-commerce platforms to admin panels. Additionally, I am skilled in using data visualization tools to create interactive charts, aiding stakeholders in making informed decisions.
+          In my career, I have focused on developing and testing Angular projects ranging from e-commerce to in-house platforms. Additionally, I am skilled in using data visualization tools to create interactive charts, aiding stakeholders in making informed decisions.
         </Paragraph>
 
         <Paragraph>
@@ -162,7 +162,7 @@ const Home = () => (
         <List>
 
           <ListItem>
-            <Link href="https://drive.google.com/file/d/1-EjyAMJmNf5K_--bI_MuKm7le_mbgyGk/view?usp=sharing">
+            <Link href="https://drive.google.com/file/d/1nLdt72jcHMG0uStEhETsXskcLvItC3wV/view?usp=sharing">
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -175,7 +175,7 @@ const Home = () => (
 
 
           <ListItem>
-            <Link href="https://github.com/jingyued" target="_blank">
+            <Link href="https://github.com/joycecoconut" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"

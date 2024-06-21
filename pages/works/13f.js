@@ -15,7 +15,7 @@ const Work = () => (
   <Layout title="13f">
     <Container>
       <Title>
-        Sina 13F <Badge>2021</Badge>
+        Sina 13F <Badge>2020-2022</Badge>
       </Title>
       <P>
         A webpage from Sina Finance about the 13F form disclosure information.
@@ -33,7 +33,7 @@ const Work = () => (
         <ListItem>
           <Meta>Stack</Meta>
           <span>
-            Angular / TypeScript / PHP / Python
+            Angular / TypeScript / Python / Data Visualization
           </span>
         </ListItem>
 
@@ -41,30 +41,14 @@ const Work = () => (
 
       <List ml={4} my={4}>
         <ListItem>
-          1. Participated in the design of the product by analyzing business logic: separating 13F report data to show both top 10 investment managers and top 10 invested stocks/ETFs.
-        </ListItem>
-        <ListItem>
-          2. Drew wireframes and high-fidelity mockups using Axure to harmonize UI design with the company website aesthetic.
-        </ListItem>
+          • I played a key role in designing and developing the 13F data section on Sina Finance, aimed at providing domestic investors with timely insights into institutional investment managers holdings. By analyzing business logic and displaying both overall institutional investors and individual investor holdings, we created a seamless user experience that increased the monthly active user base by 7%. I contributed to the product design with detailed wireframes and high-fidelity mockups, ensuring a harmonious UI design aligned with the company aesthetic.
 
-        <ListItem>
-          3. Developed the front-end using Angular and Angular Material, including an auto-scrolling news widget, toolbars, table data, and media sharing features.
         </ListItem>
+        <br />
         <ListItem>
-          4. Automated the extraction of 13F filings using Scrapy, refining and verifying data accuracy.
+          • In this project, I developed engaging front-end interfaces with features like an auto-scrolling news widget, dynamic investment data tables, and interactive charts. I automated the extraction of 13F filings, ensuring accurate and reliable data reporting. Visualizing fund trends with interactive charts and creating a rectangular treemap for top holdings helped users make informed investment decisions. Additionally, I implemented a CI/CD pipeline to streamline the software development lifecycle, accelerating release cycles and enhancing overall efficiency.
         </ListItem>
-        <ListItem>
-          5. Employed Apache ECharts to visualize institutional investors’ fund trends, including a changeable time axis for users to drag and select their interested time span.
-        </ListItem>
-        <ListItem>
-          6. Created a dynamic investment data table, integrating ngx-datatable for enhanced functionalities including pagination, sorting, and filtering.
-        </ListItem>
-        <ListItem>
-          7. Implemented a CI/CD pipeline leveraging Jenkins automation to build, test, and deploy software products to orchestrate the entire software development lifecycle and accelerated release cycles.
-        </ListItem>
-        <ListItem>
-          8. Led efforts resulting in a 7% increase in the monthly active user base by researching the current market for similar products, identifying areas for improvement before product releases and bug fixes.
-        </ListItem>
+        <br />
       </List>
 
     </Container>

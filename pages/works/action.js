@@ -12,10 +12,10 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="meituan">
+  <Layout title="action">
     <Container>
       <Title>
-        Meituan <Badge>2018-2020</Badge>
+        Action Property Management <Badge>2022-2023</Badge>
       </Title>
       <P>
         A web platform  supporting the digitalization of 100,000+ vendors, where they can manage their stores, claim locations, post vouchers, reply to reviews, and handle other online operations.
@@ -34,14 +34,15 @@ const Work = () => (
 
       <List ml={4} my={4}>
         <ListItem>
-          • I collaborated closely with backend developers, UX designers, and product managers to ensure alignment on requirements, design decisions, and strategies. By implementing responsive and mobile-friendly layouts, I made sure the platform was accessible across various devices. I developed reusable UI components for product displays and promotions management, enhancing code reuse and maintainability.
+          • I developed and maintained an in-house advertising analysis dashboard, transforming complex data into actionable insights for stakeholders. By importing and consolidating advertising data, I ensured efficient storage and analysis, enabling clear visualization of ad campaign performance. This allowed stakeholders to monitor ROI and conversion rates across different channels and time spans, making informed, data-driven decisions.
         </ListItem>
         <br />
         <ListItem>
-          • To bring data to life, I integrated interactive visualization components, allowing stakeholders to track sales performance and analyze order patterns and delivery efficiency. My work included designing automated testing scripts for functional and UI testing, ensuring consistent performance. I also conducted accessibility testing to meet web standards and coordinated user acceptance testing, working with end-users to validate the system against business needs, ensuring a seamless and inclusive user experience.
+          • To ensure secure access, I implemented robust user authentication and authorization mechanisms. I also streamlined the development process by orchestrating CI/CD pipelines, which automated integration, testing, and deployment. Through weekly code reviews and maintaining detailed documentation, I facilitated rapid prototyping and seamless onboarding, contributing to a cohesive and efficient team environment.
         </ListItem>
-
+        <br />
       </List>
+
 
     </Container>
   </Layout>

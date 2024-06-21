@@ -17,11 +17,11 @@ const Experience = () => (
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2]} gap={6}>
           <WorkGridItem id="weee" title="Weee" thumbnail={thumbInkdrop}>
-            Built Reusable Store Page for Global+ service for products display and customer reviews.
+            Built reusable store-page components for products display and customer reviews.
           </WorkGridItem>
 
-          <WorkGridItem id="13f" thumbnail={thumb13f} title="Sina Finance 13F">
-            Developed 13F data section on Sina Finance, providing investors with timely access to 13F reports.
+          <WorkGridItem id="action" title="Action Property Management" thumbnail={thumbAction}>
+            Developed a dashboard for advertising channel cost-effectiveness analyzing.
           </WorkGridItem>
 
         </SimpleGrid>
@@ -30,12 +30,12 @@ const Experience = () => (
 
       <Section delay={0.3}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <WorkGridItem id="action" title="Action" thumbnail={thumbAction}>
-            Created ad placement dashboard to visualize the cost-effectiveness of advertising channels.
-          </WorkGridItem>
 
+          <WorkGridItem id="13f" thumbnail={thumb13f} title="Sina Finance">
+            Created 13F data section for investors to access reports promptly.
+          </WorkGridItem>
           <WorkGridItem id="meituan" thumbnail={thumbMeituan} title="Meituan">
-            Built comprehensive test cases to cover various scenarios for Meituan Business Toolkit.
+            Implemented a web platform for over vendors to handle online operations.
           </WorkGridItem>
         </SimpleGrid>
       </Section>
