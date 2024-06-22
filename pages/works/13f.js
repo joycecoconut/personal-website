@@ -15,7 +15,7 @@ const Work = () => (
   <Layout title="13f">
     <Container>
       <Title>
-        Sina 13F <Badge>2020-2022</Badge>
+        Sina 13F <Badge>2018-2020</Badge>
       </Title>
       <P>
         A webpage from Sina Finance about the 13F form disclosure information.

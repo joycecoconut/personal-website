@@ -15,7 +15,7 @@ const Work = () => (
   <Layout title="meituan">
     <Container>
       <Title>
-        Meituan <Badge>2018-2020</Badge>
+        Meituan <Badge>2020-2022</Badge>
       </Title>
       <P>
         A web platform  supporting the digitalization of 100,000+ vendors, where they can manage their stores, claim locations, post vouchers, reply to reviews, and handle other online operations.

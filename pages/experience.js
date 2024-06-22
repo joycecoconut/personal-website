@@ -30,12 +30,12 @@ const Experience = () => (
 
       <Section delay={0.3}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
+          <WorkGridItem id="meituan" thumbnail={thumbMeituan} title="Meituan">
+            Implemented a web platform for over vendors to handle online operations.
+          </WorkGridItem>
 
           <WorkGridItem id="13f" thumbnail={thumb13f} title="Sina Finance">
             Created 13F data section for investors to access reports promptly.
-          </WorkGridItem>
-          <WorkGridItem id="meituan" thumbnail={thumbMeituan} title="Meituan">
-            Implemented a web platform for over vendors to handle online operations.
           </WorkGridItem>
         </SimpleGrid>
       </Section>
