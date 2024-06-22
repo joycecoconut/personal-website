@@ -80,20 +80,20 @@ const Home = () => (
         </Heading>
 
         <BioSection>
-          <BioYear>2023.08</BioYear>
+          <BioYear>2023</BioYear>
           Front-end Developer @Weee! Global+ Delivery Service
         </BioSection>
         <BioSection>
-          <BioYear>2022.09</BioYear>
+          <BioYear>2022</BioYear>
           Full-Stack Developer @Action Property Management
         </BioSection>
         <BioSection>
-          <BioYear>2020.09</BioYear>
-          Front-end Developer @Sina Finance Big Data Center
+          <BioYear>2020</BioYear>
+          Front-end Developer  @Meituan
         </BioSection>
         <BioSection>
-          <BioYear>2018.09</BioYear>
-          Front-end Developer  @Meituan
+          <BioYear>2018</BioYear>
+          Front-end Developer @Sina Finance Big Data Center
         </BioSection>
       </Section>
 
